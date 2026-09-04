@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="/Register" method="POST">
+        <label for="fn">First name</label>
+        <input id="fn" name="fn" type="text" required>
+
+        <label for="ln">Last name</label>
+        <input id="ln" name="ln" type="text" required>
+
+        <label for="age">Age</label>
+        <input id="age" name="age" type="number" min="1" required>
+
+        <label for="add">Address</label>
+        <input id="add" name="add" type="text" required>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
